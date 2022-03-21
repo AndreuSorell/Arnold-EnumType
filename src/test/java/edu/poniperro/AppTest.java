@@ -62,7 +62,7 @@ public class AppTest {
 		double pesoHumano = 175;
 		assertEquals(66.107583, planeta.pesoSuperficie(pesoHumano), 0.001);
 	}
-/*
+
 	@Test
 	public void ArrayPlanetasTerrestresTest() {
 
@@ -81,7 +81,7 @@ public class AppTest {
 		}
 	}
 
-	@Test
+	/*@Test
 	public void ArrayGigantesGaseosos() {
 
 		String[] gigantesGaseosos = new String[4];
