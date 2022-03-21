@@ -81,7 +81,7 @@ public class AppTest {
 		}
 	}
 
-	/*@Test
+	@Test
 	public void ArrayGigantesGaseosos() {
 
 		String[] gigantesGaseosos = new String[4];
@@ -99,6 +99,6 @@ public class AppTest {
 		for (Planeta planeta : Planeta.getGigantesGaseosos()) {
 			assertThat(planeta.name()).isIn(gigantesGaseosos);
 		}
-	}*/
+	}
 }
 
